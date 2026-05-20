@@ -123,7 +123,7 @@ const finalTotal = subtotal + 200;
     return;
     }
 
-    let finalCoupon = "";
+    const finalCoupon = "";
 
     if (couponCode.trim()) {
 
