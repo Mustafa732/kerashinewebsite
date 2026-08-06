@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^7.0.1",
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.3.0",
+    "@vercel/speed-insights": "^2.0.0",
     "express": "^5.1.0",
     "firebase": "^12.10.0",
     "framer-motion": "^12.23.22",

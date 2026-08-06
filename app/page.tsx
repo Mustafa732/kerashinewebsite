@@ -207,6 +207,7 @@ export default function Home() {
                             alt={item.name}
                             fill
                             className="object-cover"
+                            loading="lazy"
                           />
                         )}
                       </div>
@@ -318,6 +319,8 @@ export default function Home() {
                   muted
                   loop
                   playsInline
+                  preload="none"
+                  poster="/about/poster.jpg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/30" />
               </div>
@@ -372,6 +375,8 @@ export default function Home() {
                   muted
                   loop
                   playsInline
+                  preload="none"
+                  poster="/about/poster.jpg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20" />
               </div>
@@ -626,6 +631,7 @@ export default function Home() {
                         max-w-[220px] sm:max-w-[320px] lg:max-w-none
                         drop-shadow-[0_40px_70px_rgba(0,0,0,0.25)]
                         transition duration-700"
+                        loading="lazy"
                       />
                     </div>
                   </div>
@@ -818,6 +824,7 @@ export default function Home() {
                         height={220}
                         className="object-contain drop-shadow-[0_40px_70px_rgba(0,0,0,0.25)]
                         group-hover:scale-[1.12] transition duration-700"
+                        loading="lazy"
                       />
                     </div>
 
